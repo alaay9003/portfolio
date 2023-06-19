@@ -1,0 +1,32 @@
+.navbare nav {
+  background-color: var(--main-white-color);
+  z-index: 5555;
+}
+.navbare .toggle {
+  border: none;
+}
+.navbare .toggle:focus {
+  color: transparent;
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28888, 0, 0, 1%29stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+.logo,
+.links {
+  color: var(--main-color) !important;
+}
+.links {
+  color: var(--main-color) !important;
+  font-weight: 600 !important;
+}
+
+.links:hover,
+.logo:hover {
+  color: var(--main-color-hover) !important;
+}
+
+.links:focus,
+.logo:focus {
+  color: var(--main-color-hover) !important;
+}

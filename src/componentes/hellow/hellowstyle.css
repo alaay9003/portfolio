@@ -1,0 +1,43 @@
+.hellow {
+  padding-top: 56px;
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.hellow .info :nth-child(2) {
+  color: var(--main-color-hover);
+}
+
+.hellow .img img {
+  max-width: 400px;
+  max-height: 400px;
+}
+.hellow .social .icon {
+  font-size: 35px;
+  color: white;
+  transition: 0.3s;
+}
+.hellow .social .icon:hover {
+  color: var(--main-color-hover-2);
+}
+@media (max-width: 750px) {
+  .hellow .discribtion {
+    margin-bottom: 50px !important;
+  }
+  .hellow .info {
+    text-align: center !important;
+  }
+  .hellow .img img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hellow .discribtion {
+    margin-bottom: 50px !important;
+  }
+  .hellow .info {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--main-white-color);
+}
+.footer span {
+  font-weight: 400;
+}
+.cont ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+.title {
+  font-weight: bold;
+  color: var(--main-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.footer .education {
+  max-width: 50%;
+}
+.footer .icon {
+  color: var(--main-color-hover);
+  margin-right: 10px;
+}
+ul {
+  list-style: none;
+}

@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--main-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact img {
+  max-width: 380px;
+  max-height: 380px;
+}
+.contact p {
+  font-weight: 400;
+}
+.contact .mail-icon {
+  color: white;
+  font-size: 120px;
+  width: 200px;
+  height: 200px;
+}
+.contact .header {
+}
+.contact form input,
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.contact form input,
+textarea {
+  resize: none;
+}
+.contact form p {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .contact form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contact .left {
+    text-align: center;
+  }
+  .contact .left img {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+}
